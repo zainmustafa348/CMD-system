@@ -1,0 +1,17 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 22 C10 14, 34 14, 38 22 C34 30, 10 30, 6 22 Z" stroke="rgba(175,169,236,0.7)" stroke-width="1.2" fill="none"/>
+  <circle cx="22" cy="22" r="7" fill="none" stroke="rgba(175,169,236,0.5)" stroke-width="0.8"/>
+  <path d="M22 15 A7 7 0 0 1 29 22" stroke="#7F77DD" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M29 22 A7 7 0 0 1 22 29" stroke="#1D9E75" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M22 29 A7 7 0 0 1 15 22" stroke="#D85A30" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M15 22 A7 7 0 0 1 22 15" stroke="#AFA9EC" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="22" cy="22" r="3.2" fill="#0a0a1a"/>
+  <circle cx="22" cy="22" r="1.4" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="23.5" cy="20.5" r="0.9" fill="rgba(255,255,255,0.55)"/>
+  <line x1="14" y1="16.5" x2="13" y2="14.5" stroke="rgba(175,169,236,0.35)" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="18" y1="14.5" x2="17.5" y2="12.5" stroke="rgba(175,169,236,0.35)" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="22" y1="14" x2="22" y2="12" stroke="rgba(175,169,236,0.35)" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="26" y1="14.5" x2="26.5" y2="12.5" stroke="rgba(175,169,236,0.35)" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="30" y1="16.5" x2="31" y2="14.5" stroke="rgba(175,169,236,0.35)" stroke-width="0.8" stroke-linecap="round"/>
+  <circle cx="22" cy="22" r="11" stroke="rgba(175,169,236,0.12)" stroke-width="0.6" stroke-dasharray="2 3"/>
+</svg>

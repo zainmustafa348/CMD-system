@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}                              /* ✅ closing brace added */
+
+html, body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a1060 50%, #2d0a3e 100%);
+    background-attachment: fixed;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* ✅ centers everything inside card */
+    width: 90%;
+    max-width: 420px;
+    padding: 30px 40px 50px 40px;
+}
+
+
+    .welcome {
+   color: #fff;
+    margin-top: 8px;       /* ✅ remove the negative value, use small positive */
+    font-size: 32px;
+    margin-bottom: 50px;
+    gap:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}     
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;       
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.input input[type="text"],
+.input input[type="password"] {
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(26,16,96,0.6) 0%, rgba(45,10,62,0.5) 100%);
+    border: 0.5px solid rgba(175, 169, 236, 0.28);
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 20px;
+       /* ✅ smooth transition for hover effects */
+}
+
+.input input[type="text"]::placeholder,
+.input input[type="password"]::placeholder {
+    color: rgba(175, 169, 236, 0.38);
+}
+
+.input input[type="text"]:focus,
+.input input[type="password"]:focus {
+    border-color: rgba(175, 169, 236, 0.65);
+}
+
+.input input[type="submit"] {
+    width: 60%;
+    padding: 12px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #534AB7, #7F77DD);  /* ✅ fixed color */
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    transition: background 0.3s ease;
+}
+
+.input input[type="submit"]:hover {
+        transition:  0.3s ease-in-out;
+        width: 290px;
+    background: linear-gradient(135deg, #6259c7, #9490e8);  /* ✅ subtle hover */
+}
+
+.input input[type="submit"]:active {
+    background: linear-gradient(135deg, #3d3490, #6259c7);
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 24px 20px 36px 20px;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .welcome {
+        font-size: 24px;
+    }
+}
+.input input[type="text"]:hover{
+    border-color: rgba(175, 169, 236, 0.85);
+    width: 300px;
+    border-radius: 10px;
+    border-color: grey;
+    background-color: grey;
+    transition: all 0.3s ease;
+}
+.input input[type="password"]:hover{
+    border-color: rgba(175, 169, 236, 0.85);
+    width: 300px;
+    border-radius: 10px;
+    background-color: grey;
+    transition: all 0.3s ease;
+}
